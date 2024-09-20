@@ -1,0 +1,21 @@
+Task ID,Team,Input,Output,Granularity,Estimated Duration (hrs),Real Duration (hrs),Workstation,Helicopter Model,OutputType
+Task_1,Team B,"Part_1, Part_20",Transmission_Both,SubComponentAssembly,2,3,Workstation_3,Both,Transmission
+Task_2,Team B,"Part_21, Part_20, Part_1, Part_29",CockpitControls_A,SubComponentAssembly,3,2,Workstation_3,Model_A,CockpitControls
+Task_3,Team B,CockpitControls,MainRotorAssembly_A,ComponentAssembly,6,7,Workstation_1,Model_A,MainRotorAssembly
+Task_4,Team A,"TailBoom, FuelSystem",TailRotorAssembly_A,ComponentAssembly,5,6,Workstation_3,Model_A,TailRotorAssembly
+Task_5,Team B,"Part_14, Part_19",TailBoom_A,SubComponentAssembly,7,7,Workstation_2,Model_A,TailBoom
+Task_6,Team A,"Part_13, Part_11",Transmission_B,SubComponentAssembly,1,2,Workstation_3,Model_B,Transmission
+Task_7,Team B,"Part_12, Part_1, Part_3, Part_24",FuelSystem_A,SubComponentAssembly,4,3,Workstation_3,Model_A,FuelSystem
+Task_8,Team B,"Part_20, Part_26, Part_4",RotorBlade_B,SubComponentAssembly,6,5,Workstation_3,Model_B,RotorBlade
+Task_9,Team C,"RotorBlade, Transmission, TailBoom",TailRotorAssembly_A,ComponentAssembly,4,3,Workstation_3,Model_A,TailRotorAssembly
+Task_10,Team B,"Part_3, Part_5, Part_18, Part_16",Transmission_A,SubComponentAssembly,3,5,Workstation_3,Model_A,Transmission
+Task_11,Team A,"Part_5, Part_6, Part_9",FuelSystem_B,SubComponentAssembly,6,4,Workstation_4,Model_B,FuelSystem
+Task_12,Team B,"CockpitControls, MainRotorHub, RotorBlade",MainRotorAssembly_B,ComponentAssembly,1,2,Workstation_3,Model_B,MainRotorAssembly
+Task_13,Team A,FuelSystem,TailRotorAssembly_A,ComponentAssembly,1,1,Workstation_2,Model_A,TailRotorAssembly
+Task_14,Team A,"Part_8, Part_23",Transmission_B,SubComponentAssembly,5,5,Workstation_2,Model_B,Transmission
+Task_15,Team C,"CockpitControls, RotorBlade",TailRotorAssembly_B,ComponentAssembly,2,0,Workstation_5,Model_B,TailRotorAssembly
+Task_16,Team A,CockpitControls,MainRotorAssembly_Both,ComponentAssembly,8,6,Workstation_1,Both,MainRotorAssembly
+Task_17,Team C,"RotorBlade, FuelSystem",TailRotorAssembly_B,ComponentAssembly,5,5,Workstation_4,Model_B,TailRotorAssembly
+Task_18,Team C,"CockpitControls, Transmission",TailRotorAssembly_Both,ComponentAssembly,2,0,Workstation_3,Both,TailRotorAssembly
+Task_19,Team A,MainRotorHub,TailRotorAssembly_B,ComponentAssembly,5,5,Workstation_1,Model_B,TailRotorAssembly
+Task_20,Team C,"Part_3, Part_8, Part_26, Part_17",FuelSystem_B,SubComponentAssembly,3,2,Workstation_3,Model_B,FuelSystem

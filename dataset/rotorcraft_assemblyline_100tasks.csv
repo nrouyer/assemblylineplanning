@@ -1,0 +1,101 @@
+Task ID,Team,Input,Output,Granularity,Estimated Duration (hrs),Real Duration (hrs),Workstation,Helicopter Model,OutputType
+Task_1,Team B,RotorBlade,TailRotorAssembly_B,ComponentAssembly,4,5,Workstation_1,Model_B,TailRotorAssembly
+Task_2,Team A,"FuelSystem, MainRotorHub",MainRotorAssembly_A,ComponentAssembly,7,9,Workstation_1,Model_A,MainRotorAssembly
+Task_3,Team A,"Part_14, Part_29, Part_13, Part_27",Transmission_Both,SubComponentAssembly,7,7,Workstation_1,Both,Transmission
+Task_4,Team C,"Part_8, Part_24, Part_1",FuelSystem_B,SubComponentAssembly,4,5,Workstation_4,Model_B,FuelSystem
+Task_5,Team B,"FuelSystem, Transmission, CockpitControls",MainRotorAssembly_B,ComponentAssembly,1,1,Workstation_1,Model_B,MainRotorAssembly
+Task_6,Team C,"LandingGear, CockpitControls, Transmission",FuselageAssembly_A,ComponentAssembly,2,3,Workstation_3,Model_A,FuselageAssembly
+Task_7,Team A,MainRotorHub,TailRotorAssembly_A,ComponentAssembly,3,1,Workstation_5,Model_A,TailRotorAssembly
+Task_8,Team C,"Part_10, Part_9",Transmission_Both,SubComponentAssembly,3,4,Workstation_4,Both,Transmission
+Task_9,Team B,"Part_14, Part_15, Part_16, Part_26",RotorBlade_A,SubComponentAssembly,1,1,Workstation_3,Model_A,RotorBlade
+Task_10,Team B,Transmission,TailRotorAssembly_Both,ComponentAssembly,3,1,Workstation_3,Both,TailRotorAssembly
+Task_11,Team B,"Part_20, Part_28, Part_29",MainRotorHub_A,SubComponentAssembly,3,2,Workstation_5,Model_A,MainRotorHub
+Task_12,Team C,RotorBlade,FuselageAssembly_B,ComponentAssembly,8,6,Workstation_1,Model_B,FuselageAssembly
+Task_13,Team A,"TailBoom, CockpitControls",MainRotorAssembly_Both,ComponentAssembly,1,3,Workstation_3,Both,MainRotorAssembly
+Task_14,Team C,CockpitControls,TailRotorAssembly_Both,ComponentAssembly,7,6,Workstation_3,Both,TailRotorAssembly
+Task_15,Team B,"RotorBlade, Transmission, LandingGear",MainRotorAssembly_A,ComponentAssembly,8,6,Workstation_1,Model_A,MainRotorAssembly
+Task_16,Team C,"Part_5, Part_21",Transmission_B,SubComponentAssembly,6,5,Workstation_2,Model_B,Transmission
+Task_17,Team B,"TailBoom, Transmission",MainRotorAssembly_A,ComponentAssembly,4,5,Workstation_4,Model_A,MainRotorAssembly
+Task_18,Team B,"Part_25, Part_27",RotorBlade_B,SubComponentAssembly,8,10,Workstation_5,Model_B,RotorBlade
+Task_19,Team C,"LandingGear, CockpitControls",MainRotorAssembly_B,ComponentAssembly,7,5,Workstation_4,Model_B,MainRotorAssembly
+Task_20,Team B,"Part_9, Part_15, Part_11",RotorBlade_B,SubComponentAssembly,1,3,Workstation_3,Model_B,RotorBlade
+Task_21,Team C,"Part_9, Part_6",MainRotorHub_Both,SubComponentAssembly,5,6,Workstation_1,Both,MainRotorHub
+Task_22,Team B,"Part_2, Part_8",LandingGear_Both,SubComponentAssembly,4,6,Workstation_1,Both,LandingGear
+Task_23,Team C,"Part_1, Part_28, Part_8",RotorBlade_A,SubComponentAssembly,2,1,Workstation_4,Model_A,RotorBlade
+Task_24,Team C,"Part_20, Part_17, Part_24",MainRotorHub_A,SubComponentAssembly,2,1,Workstation_3,Model_A,MainRotorHub
+Task_25,Team A,"Part_11, Part_24",RotorBlade_B,SubComponentAssembly,1,-1,Workstation_5,Model_B,RotorBlade
+Task_26,Team C,RotorBlade,MainRotorAssembly_B,ComponentAssembly,8,7,Workstation_4,Model_B,MainRotorAssembly
+Task_27,Team B,"FuelSystem, TailBoom",FuselageAssembly_B,ComponentAssembly,1,-1,Workstation_1,Model_B,FuselageAssembly
+Task_28,Team A,"Part_8, Part_29",RotorBlade_Both,SubComponentAssembly,3,1,Workstation_5,Both,RotorBlade
+Task_29,Team A,TailBoom,MainRotorAssembly_A,ComponentAssembly,5,4,Workstation_2,Model_A,MainRotorAssembly
+Task_30,Team B,"Part_12, Part_24",CockpitControls_A,SubComponentAssembly,7,9,Workstation_5,Model_A,CockpitControls
+Task_31,Team C,"RotorBlade, MainRotorHub, CockpitControls",TailRotorAssembly_B,ComponentAssembly,6,6,Workstation_3,Model_B,TailRotorAssembly
+Task_32,Team A,"Part_9, Part_29, Part_14",CockpitControls_B,SubComponentAssembly,1,1,Workstation_4,Model_B,CockpitControls
+Task_33,Team A,"FuelSystem, RotorBlade, TailBoom",TailRotorAssembly_B,ComponentAssembly,3,3,Workstation_5,Model_B,TailRotorAssembly
+Task_34,Team B,"Part_28, Part_7",CockpitControls_A,SubComponentAssembly,8,7,Workstation_4,Model_A,CockpitControls
+Task_35,Team B,"Part_4, Part_25",Transmission_B,SubComponentAssembly,4,2,Workstation_4,Model_B,Transmission
+Task_36,Team A,"FuelSystem, Transmission",FuselageAssembly_B,ComponentAssembly,2,0,Workstation_5,Model_B,FuselageAssembly
+Task_37,Team B,"TailBoom, CockpitControls, LandingGear",TailRotorAssembly_Both,ComponentAssembly,5,6,Workstation_3,Both,TailRotorAssembly
+Task_38,Team C,"LandingGear, TailBoom, CockpitControls",FuselageAssembly_A,ComponentAssembly,6,5,Workstation_4,Model_A,FuselageAssembly
+Task_39,Team C,"Transmission, LandingGear",FuselageAssembly_Both,ComponentAssembly,3,2,Workstation_3,Both,FuselageAssembly
+Task_40,Team B,"Part_29, Part_10, Part_9",TailBoom_B,SubComponentAssembly,4,2,Workstation_5,Model_B,TailBoom
+Task_41,Team C,"Part_22, Part_10, Part_7, Part_21",MainRotorHub_B,SubComponentAssembly,3,2,Workstation_4,Model_B,MainRotorHub
+Task_42,Team A,"Part_18, Part_24, Part_4",TailBoom_Both,SubComponentAssembly,8,9,Workstation_5,Both,TailBoom
+Task_43,Team C,"Part_3, Part_7, Part_21, Part_17",CockpitControls_B,SubComponentAssembly,3,3,Workstation_4,Model_B,CockpitControls
+Task_44,Team C,RotorBlade,FuselageAssembly_B,ComponentAssembly,7,6,Workstation_3,Model_B,FuselageAssembly
+Task_45,Team B,"Transmission, TailBoom",MainRotorAssembly_Both,ComponentAssembly,8,7,Workstation_1,Both,MainRotorAssembly
+Task_46,Team A,"LandingGear, FuelSystem",MainRotorAssembly_A,ComponentAssembly,6,8,Workstation_5,Model_A,MainRotorAssembly
+Task_47,Team B,"TailBoom, FuelSystem, Transmission",FuselageAssembly_Both,ComponentAssembly,1,3,Workstation_1,Both,FuselageAssembly
+Task_48,Team A,"FuelSystem, Transmission",TailRotorAssembly_Both,ComponentAssembly,2,1,Workstation_3,Both,TailRotorAssembly
+Task_49,Team C,"CockpitControls, Transmission, RotorBlade",TailRotorAssembly_Both,ComponentAssembly,5,3,Workstation_1,Both,TailRotorAssembly
+Task_50,Team B,"Part_22, Part_2, Part_4",MainRotorHub_B,SubComponentAssembly,2,0,Workstation_3,Model_B,MainRotorHub
+Task_51,Team B,"Part_26, Part_11",FuelSystem_B,SubComponentAssembly,1,3,Workstation_3,Model_B,FuelSystem
+Task_52,Team C,"Part_8, Part_13, Part_18",LandingGear_B,SubComponentAssembly,3,2,Workstation_2,Model_B,LandingGear
+Task_53,Team A,"Part_26, Part_5",Transmission_B,SubComponentAssembly,5,4,Workstation_5,Model_B,Transmission
+Task_54,Team A,"Part_3, Part_11, Part_14",RotorBlade_Both,SubComponentAssembly,3,5,Workstation_4,Both,RotorBlade
+Task_55,Team A,"Part_13, Part_6, Part_12, Part_24",RotorBlade_A,SubComponentAssembly,1,-1,Workstation_5,Model_A,RotorBlade
+Task_56,Team A,"Part_21, Part_8, Part_27, Part_22",RotorBlade_B,SubComponentAssembly,7,9,Workstation_1,Model_B,RotorBlade
+Task_57,Team C,"FuelSystem, LandingGear, MainRotorHub",TailRotorAssembly_B,ComponentAssembly,8,6,Workstation_2,Model_B,TailRotorAssembly
+Task_58,Team C,"Part_13, Part_24, Part_26",RotorBlade_B,SubComponentAssembly,5,4,Workstation_1,Model_B,RotorBlade
+Task_59,Team B,"FuelSystem, RotorBlade",FuselageAssembly_B,ComponentAssembly,5,7,Workstation_2,Model_B,FuselageAssembly
+Task_60,Team C,"CockpitControls, MainRotorHub, RotorBlade",TailRotorAssembly_Both,ComponentAssembly,5,6,Workstation_1,Both,TailRotorAssembly
+Task_61,Team C,Transmission,MainRotorAssembly_Both,ComponentAssembly,1,-1,Workstation_3,Both,MainRotorAssembly
+Task_62,Team B,"Part_26, Part_28, Part_24",RotorBlade_A,SubComponentAssembly,7,8,Workstation_4,Model_A,RotorBlade
+Task_63,Team A,"Part_12, Part_8, Part_24, Part_15",RotorBlade_B,SubComponentAssembly,8,8,Workstation_3,Model_B,RotorBlade
+Task_64,Team A,"MainRotorHub, Transmission, FuelSystem",FuselageAssembly_B,ComponentAssembly,1,1,Workstation_3,Model_B,FuselageAssembly
+Task_65,Team C,FuelSystem,MainRotorAssembly_B,ComponentAssembly,5,5,Workstation_3,Model_B,MainRotorAssembly
+Task_66,Team C,"CockpitControls, RotorBlade",MainRotorAssembly_B,ComponentAssembly,4,6,Workstation_5,Model_B,MainRotorAssembly
+Task_67,Team A,"Part_17, Part_10, Part_14",Transmission_A,SubComponentAssembly,2,0,Workstation_3,Model_A,Transmission
+Task_68,Team B,"Part_11, Part_5, Part_29, Part_26",LandingGear_Both,SubComponentAssembly,4,6,Workstation_5,Both,LandingGear
+Task_69,Team B,"MainRotorHub, Transmission, FuelSystem",TailRotorAssembly_Both,ComponentAssembly,2,2,Workstation_2,Both,TailRotorAssembly
+Task_70,Team C,FuelSystem,FuselageAssembly_Both,ComponentAssembly,5,5,Workstation_1,Both,FuselageAssembly
+Task_71,Team C,"MainRotorHub, RotorBlade, LandingGear",MainRotorAssembly_A,ComponentAssembly,3,5,Workstation_1,Model_A,MainRotorAssembly
+Task_72,Team A,"Part_7, Part_10",Transmission_B,SubComponentAssembly,3,1,Workstation_1,Model_B,Transmission
+Task_73,Team C,"TailBoom, MainRotorHub, CockpitControls",FuselageAssembly_A,ComponentAssembly,3,2,Workstation_4,Model_A,FuselageAssembly
+Task_74,Team A,"Part_23, Part_26, Part_24",FuelSystem_B,SubComponentAssembly,8,7,Workstation_3,Model_B,FuelSystem
+Task_75,Team B,"Part_7, Part_3",CockpitControls_B,SubComponentAssembly,2,1,Workstation_2,Model_B,CockpitControls
+Task_76,Team B,"TailBoom, CockpitControls, Transmission",TailRotorAssembly_Both,ComponentAssembly,1,-1,Workstation_1,Both,TailRotorAssembly
+Task_77,Team B,"TailBoom, RotorBlade",TailRotorAssembly_Both,ComponentAssembly,2,1,Workstation_3,Both,TailRotorAssembly
+Task_78,Team B,"Part_16, Part_24, Part_1",MainRotorHub_B,SubComponentAssembly,4,3,Workstation_3,Model_B,MainRotorHub
+Task_79,Team B,"Part_28, Part_19, Part_8, Part_14",Transmission_A,SubComponentAssembly,4,4,Workstation_5,Model_A,Transmission
+Task_80,Team C,CockpitControls,TailRotorAssembly_B,ComponentAssembly,4,3,Workstation_5,Model_B,TailRotorAssembly
+Task_81,Team A,"Part_26, Part_10, Part_27",TailBoom_A,SubComponentAssembly,5,4,Workstation_4,Model_A,TailBoom
+Task_82,Team A,"Transmission, MainRotorHub, TailBoom",MainRotorAssembly_A,ComponentAssembly,3,5,Workstation_5,Model_A,MainRotorAssembly
+Task_83,Team A,"Transmission, TailBoom, RotorBlade",TailRotorAssembly_B,ComponentAssembly,6,5,Workstation_1,Model_B,TailRotorAssembly
+Task_84,Team B,"Part_26, Part_16",FuelSystem_A,SubComponentAssembly,4,6,Workstation_4,Model_A,FuelSystem
+Task_85,Team C,"MainRotorHub, FuelSystem",FuselageAssembly_Both,ComponentAssembly,6,5,Workstation_1,Both,FuselageAssembly
+Task_86,Team C,"Part_24, Part_20, Part_28",Transmission_Both,SubComponentAssembly,1,3,Workstation_5,Both,Transmission
+Task_87,Team B,"Part_12, Part_22",RotorBlade_B,SubComponentAssembly,1,-1,Workstation_3,Model_B,RotorBlade
+Task_88,Team C,"MainRotorHub, RotorBlade, LandingGear",FuselageAssembly_A,ComponentAssembly,5,4,Workstation_2,Model_A,FuselageAssembly
+Task_89,Team A,"FuelSystem, MainRotorHub",FuselageAssembly_Both,ComponentAssembly,3,2,Workstation_4,Both,FuselageAssembly
+Task_90,Team A,"Part_6, Part_10, Part_1, Part_20",LandingGear_B,SubComponentAssembly,2,0,Workstation_3,Model_B,LandingGear
+Task_91,Team B,"Part_18, Part_9, Part_3, Part_8",TailBoom_B,SubComponentAssembly,1,3,Workstation_2,Model_B,TailBoom
+Task_92,Team A,"RotorBlade, FuelSystem",FuselageAssembly_B,ComponentAssembly,2,0,Workstation_2,Model_B,FuselageAssembly
+Task_93,Team A,"Part_22, Part_4, Part_6, Part_14",Transmission_B,SubComponentAssembly,7,5,Workstation_1,Model_B,Transmission
+Task_94,Team B,"Part_17, Part_15, Part_28, Part_12",MainRotorHub_Both,SubComponentAssembly,8,10,Workstation_2,Both,MainRotorHub
+Task_95,Team A,"Part_28, Part_19, Part_20",FuelSystem_B,SubComponentAssembly,5,6,Workstation_3,Model_B,FuelSystem
+Task_96,Team A,RotorBlade,FuselageAssembly_A,ComponentAssembly,8,6,Workstation_5,Model_A,FuselageAssembly
+Task_97,Team B,CockpitControls,TailRotorAssembly_B,ComponentAssembly,1,3,Workstation_2,Model_B,TailRotorAssembly
+Task_98,Team A,"Part_14, Part_9, Part_24, Part_25",FuelSystem_A,SubComponentAssembly,1,3,Workstation_3,Model_A,FuelSystem
+Task_99,Team C,"MainRotorHub, RotorBlade",TailRotorAssembly_A,ComponentAssembly,1,3,Workstation_1,Model_A,TailRotorAssembly
+Task_100,Team A,"TailBoom, RotorBlade",MainRotorAssembly_B,ComponentAssembly,6,4,Workstation_5,Model_B,MainRotorAssembly
