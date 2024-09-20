@@ -1,0 +1,21 @@
+Task ID,Team,Input,Output,Granularity,Estimated Duration (hrs),Real Duration (hrs),Workstation,Helicopter Model,OutputType
+Task_1,Team B,"RotorBlade_A, MainRotorHub_A",MainRotorAssembly_A,ComponentAssembly,8,10,Workstation_4,Model_A,MainRotorAssembly
+Task_2,Team A,"RotorBlade_A, FuelSystem_A",MainRotorAssembly_A,ComponentAssembly,3,4,Workstation_5,Model_A,MainRotorAssembly
+Task_3,Team B,"Part_26, Part_18, Part_5, Part_27",TailBoom_B,SubComponentAssembly,2,1,Workstation_1,Model_B,TailBoom
+Task_4,Team A,"Part_27, Part_1, Part_6",Transmission_Both,SubComponentAssembly,6,4,Workstation_2,Both,Transmission
+Task_5,Team A,"RotorBlade_A, Transmission_A",MainRotorAssembly_A,ComponentAssembly,8,10,Workstation_2,Model_A,MainRotorAssembly
+Task_6,Team B,Transmission_A,TailRotorAssembly_A,ComponentAssembly,6,7,Workstation_1,Model_A,TailRotorAssembly
+Task_7,Team C,"Part_17, Part_23",TailBoom_B,SubComponentAssembly,8,7,Workstation_2,Model_B,TailBoom
+Task_8,Team A,"Part_6, Part_23",RotorBlade_A,SubComponentAssembly,6,5,Workstation_5,Model_A,RotorBlade
+Task_9,Team A,"TailBoom_B, FuelSystem_B",FuselageAssembly_B,ComponentAssembly,5,4,Workstation_4,Model_B,FuselageAssembly
+Task_10,Team C,"Part_23, Part_26, Part_17",CockpitControls_A,SubComponentAssembly,4,4,Workstation_2,Model_A,CockpitControls
+Task_11,Team B,"CockpitControls_A, MainRotorHub_A, Transmission_A",MainRotorAssembly_A,ComponentAssembly,6,5,Workstation_2,Model_A,MainRotorAssembly
+Task_12,Team A,LandingGear_B,MainRotorAssembly_B,ComponentAssembly,6,8,Workstation_2,Model_B,MainRotorAssembly
+Task_13,Team A,LandingGear_A,TailRotorAssembly_A,ComponentAssembly,3,3,Workstation_3,Model_A,TailRotorAssembly
+Task_14,Team B,"Part_17, Part_1, Part_12",CockpitControls_A,SubComponentAssembly,2,1,Workstation_2,Model_A,CockpitControls
+Task_15,Team A,"Part_23, Part_6, Part_13",Transmission_B,SubComponentAssembly,4,3,Workstation_2,Model_B,Transmission
+Task_16,Team C,"Part_24, Part_10, Part_21",TailBoom_A,SubComponentAssembly,2,0,Workstation_2,Model_A,TailBoom
+Task_17,Team B,"TailBoom_A, MainRotorHub_A",TailRotorAssembly_A,ComponentAssembly,3,1,Workstation_4,Model_A,TailRotorAssembly
+Task_18,Team B,"Part_29, Part_14, Part_4, Part_22",LandingGear_A,SubComponentAssembly,1,-1,Workstation_1,Model_A,LandingGear
+Task_19,Team C,"Part_9, Part_24, Part_5",RotorBlade_A,SubComponentAssembly,3,3,Workstation_4,Model_A,RotorBlade
+Task_20,Team B,"Part_21, Part_6",Transmission_B,SubComponentAssembly,4,2,Workstation_1,Model_B,Transmission

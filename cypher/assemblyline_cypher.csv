@@ -2,7 +2,7 @@ name,description,query,id,parentId,isFolder
 🚁 Assembly Line,,,0,,true
 Showing plugins,,,1,0,true
 Discover data,,,2,0,true
-Discover first dataset,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
+Discover dataset,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
 RETURN row LIMIT 5",3,2,false
 Constraints,,,4,0,true
 GDS DAG algorithms,,"CALL gds.list() 
@@ -15,3 +15,31 @@ CREATE CONSTRAINT workstation_id IF NOT EXISTS FOR (w:Workstation) REQUIRE (w.id
 CREATE CONSTRAINT part_id IF NOT EXISTS FOR (p:Part) REQUIRE (p.id) IS NODE KEY;
 CREATE CONSTRAINT team_id IF NOT EXISTS FOR (t:Team) REQUIRE (t.id) IS NODE KEY;
 CREATE CONSTRAINT partType_id IF NOT EXISTS FOR (pt:PartType) REQUIRE (pt.id) IS NODE KEY;",6,4,false
+Load data,,,7,0,true
+Graph model,,,8,0,true
+Visualize dependencies,,,9,0,true
+Load Workstation nodes,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
+MERGE (w:Workstation {id: row.Workstation})
+WITH DISTINCT w
+RETURN count(w) AS nbWorkstations;",10,7,false
+Show graph model,,CALL apoc.meta.graph();,11,8,false
+Load Team nodes,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
+MERGE (t:Team {id: row.Team})
+WITH distinct t
+RETURN count(t) AS nbTeams;",12,7,false
+Load Rotorcraft nodes,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
+WITH row WHERE row.`Helicopter Model` STARTS WITH 'Model'
+MERGE (r:Rotorcraft {id: row.`Helicopter Model`})
+WITH distinct r
+RETURN count(r);",13,7,false
+Load Task nodes,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
+WITH row, 
+{
+  granularity: row.Granularity, 
+  estimatedDurationHours: toInteger(row.`Estimated Duration (hrs)`),
+  realDurationHours: toInteger(row.`Real Duration (hrs)`)
+} AS props
+MERGE (t:Task {id: row.`Task ID`})
+  ON CREATE SET t += props
+  ON MATCH SET t += props
+RETURN count(t) AS nbTasks;",14,7,false
