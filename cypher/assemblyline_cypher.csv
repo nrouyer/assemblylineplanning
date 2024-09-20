@@ -1,0 +1,17 @@
+name,description,query,id,parentId,isFolder
+🚁 Assembly Line,,,0,,true
+Showing plugins,,,1,0,true
+Discover data,,,2,0,true
+Discover first dataset,,"LOAD CSV WITH HEADERS FROM ""https://raw.githubusercontent.com/nrouyer/assemblylineplanning/refs/heads/main/dataset/rotorcraft_assemblyline_20tasks.csv"" AS row
+RETURN row LIMIT 5",3,2,false
+Constraints,,,4,0,true
+GDS DAG algorithms,,"CALL gds.list() 
+YIELD name, description, signature
+WHERE toLower(name) CONTAINS ""gds.dag""
+RETURN name, description, signature",5,1,false
+Set constraints,,"CREATE CONSTRAINT rotorcraft_id IF NOT EXISTS FOR (r:Rotorcraft) REQUIRE (r.id) IS NODE KEY;
+CREATE CONSTRAINT task_id IF NOT EXISTS FOR (t:Task) REQUIRE (t.id) IS NODE KEY;
+CREATE CONSTRAINT workstation_id IF NOT EXISTS FOR (w:Workstation) REQUIRE (w.id) IS NODE KEY;
+CREATE CONSTRAINT part_id IF NOT EXISTS FOR (p:Part) REQUIRE (p.id) IS NODE KEY;
+CREATE CONSTRAINT team_id IF NOT EXISTS FOR (t:Team) REQUIRE (t.id) IS NODE KEY;
+CREATE CONSTRAINT partType_id IF NOT EXISTS FOR (pt:PartType) REQUIRE (pt.id) IS NODE KEY;",6,4,false
