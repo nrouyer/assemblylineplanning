@@ -15,3 +15,12 @@ Graph Data Science to compute gantt planning from task dependency dataset
 1. Connect to https://neodash.graphapp.io
 2. Import the `./neodash/assemblyline_dashboard.json`
 3. Visualize dynamic gantt dashboards
+
+# Graph model
+![Graph Model](./images/graph_model.png)
+
+Let us explain the graph model.
+- A `Team` *`PERFORMS`* a `Task` *`AT`* a `Workstation`.
+- A `Task` has input and output `Parts`.
+- A `Rotorcraft` *`HAS_COMPONENT_ASSEMBLY`* `Parts`.
+- A `Part` *`HAS_TYPE`* a `PartType`.
